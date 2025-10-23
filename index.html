@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Thomas Coons</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#my-work">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <section class="hero d-flex flex-column justify-content-center align-items-center text-center text-light">
+            <div class="container">
+                <h1 class="display-4 fw-bold">Hello, I'm Thomas Coons</h1>
+                <p class="lead mb-4">Web Developer | Designer | Creator</p>
+                <a href="#contact" class="btn btn-primary btn-lg">Contact</a>
+            </div>
+        </section>
+
+    </header>
+    <main class="d-flex flex-column container">
+        <section id="about" class="d-flex flex-column align-items-center mt-5">
+            <div class="container-md">
+                <h2>About Me</h2>
+                <hr>
+                <p class="text-start">I am a web developer with a passion for creating interactive and user-friendly
+                    websites. I am
+                    currently
+                    completing my
+                    Software Development diploma at Mohawk College, where I have gained strong experience in both
+                    front-end
+                    and back-end
+                    technologies.
+                    <br>
+                </p>
+                <p class="text-start">
+                    I also completed a full-time co-op placement with the Ontario Public Service (OPS), where I worked
+                    as a
+                    Software
+                    Developer building and maintaining applications used by government teams. This experience helped me
+                    develop practical
+                    skills in collaborative development, code optimization, and delivering reliable, accessible
+                    solutions
+                    for real users.
+                </p>
+            </div>
+        </section>
+        <section id="education" class="d-flex flex-column align-items-center mt-5">
+            <div class="container-md">
+                <h2>Education</h2>
+                <hr>
+                <p class="text-start">
+                    I am currently completing my Software Development diploma at Mohawk College, where I have gained
+                    a strong foundation in both front-end and back-end technologies. My coursework has focused on core
+                    programming
+                    languages and modern development tools, including Java, Python,
+                    HTML, CSS, JavaScript, and React.
+                    I have also studied networking fundamentals, database design, and
+                    software engineering principles such as version control, agile development, and system analysis.
+                </p>
+
+            </div>
+        </section>
+        <section id="my-work" class="d-flex flex-column align-items-center mt-5">
+            <div class="container-md">
+                <h2>My Work</h2>
+                <hr>
+                <div class="container text-center">
+                    <div class="row justify-content-center gap-3">
+                        <div class="col-auto">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/nasa.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nasa</h5>
+                                    <p class="card-text">At NASA, I worked on major web development systems and built
+                                        engaging, user-friendly experiences.</p>
+                                    <a href="https://www.nasa.gov/" class="btn btn-primary">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-auto">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/blizzard.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blizzard Entertainment</h5>
+                                    <p class="card-text">Worked on front-end and back-end systems supporting Blizzard's
+                                        online services.</p>
+                                    <a href="https://www.blizzard.com/en-us/" class="btn btn-primary">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/image.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ticket Service App</h5>
+                                    <p class="card-text">A simple ticket management app.</p>
+                                    <a href="https://ticket-service-front-end.vercel.app/" class="btn btn-primary">Go
+                                        somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center py-5 mt-5">
+        <section id="contact" style="max-width:600px; margin:auto;">
+            <h2 class="text-start">Contact Me</h2>
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

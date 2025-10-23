@@ -1,0 +1,48 @@
+.hero {
+    min-height: 50vh;
+    background: linear-gradient(135deg, #4f46e5, #9333ea, #0ea5e9);
+    background-size: 200% 200%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card{
+    height: 320px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-clip: padding-box;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+.card:hover{
+    transform: scale(1.03) rotate(2deg);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #000000;
+    border: none !important;
+    padding: 2 !important;
+    margin: 0 !important;
+}
