@@ -21,3 +21,5 @@ It includes sections for:
 - Clean, responsive layout using Bootstrap.
 - Contact form section for quick communication.
 - Nav link to my Resume
+
+![alt text](image.png)
